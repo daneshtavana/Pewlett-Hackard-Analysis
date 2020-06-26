@@ -48,3 +48,11 @@ CREATE TABLE titles (
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
 	PRIMARY KEY (emp_no)
 );
+-- Code to Drop tables for PH-EmployeeDB
+Drop Table departments CASCADE;
+DROP TABLE dept_emp CASCADE;
+DROP TABLE dept_manager CASCADE;
+DROP TABLE employees CASCADE;
+DROP TABLE salaries CASCADE;
+DROP TABLE titles CASCADE;
+
